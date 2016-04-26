@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		9ACE4AA21CCF639200802D5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE4AA11CCF639200802D5C /* main.m */; };
 		9ACE4AA51CCF639200802D5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE4AA41CCF639200802D5C /* AppDelegate.m */; };
-		9ACE4AA81CCF639200802D5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE4AA71CCF639200802D5C /* ViewController.m */; };
 		9ACE4AAD1CCF639200802D5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ACE4AAC1CCF639200802D5C /* Assets.xcassets */; };
 		9ACE4AB01CCF639200802D5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ACE4AAE1CCF639200802D5C /* LaunchScreen.storyboard */; };
+		9ACE4ABB1CCF6E4700802D5C /* CYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE4ABA1CCF6E4700802D5C /* CYTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,11 +19,11 @@
 		9ACE4AA11CCF639200802D5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9ACE4AA31CCF639200802D5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9ACE4AA41CCF639200802D5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9ACE4AA61CCF639200802D5C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9ACE4AA71CCF639200802D5C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9ACE4AAC1CCF639200802D5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9ACE4AAF1CCF639200802D5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9ACE4AB11CCF639200802D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ACE4AB91CCF6E4700802D5C /* CYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYTabBarController.h; sourceTree = "<group>"; };
+		9ACE4ABA1CCF6E4700802D5C /* CYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 			children = (
 				9ACE4AA31CCF639200802D5C /* AppDelegate.h */,
 				9ACE4AA41CCF639200802D5C /* AppDelegate.m */,
-				9ACE4AA61CCF639200802D5C /* ViewController.h */,
-				9ACE4AA71CCF639200802D5C /* ViewController.m */,
+				9ACE4AB91CCF6E4700802D5C /* CYTabBarController.h */,
+				9ACE4ABA1CCF6E4700802D5C /* CYTabBarController.m */,
 				9ACE4AA01CCF639200802D5C /* Supporting Files */,
 			);
 			path = "百思不得姐";
@@ -102,6 +102,7 @@
 		9ACE4A951CCF639200802D5C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CY;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = PALMFUN;
 				TargetAttributes = {
@@ -146,9 +147,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9ACE4AA81CCF639200802D5C /* ViewController.m in Sources */,
 				9ACE4AA51CCF639200802D5C /* AppDelegate.m in Sources */,
 				9ACE4AA21CCF639200802D5C /* main.m in Sources */,
+				9ACE4ABB1CCF6E4700802D5C /* CYTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +290,7 @@
 				9ACE4AB61CCF639200802D5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

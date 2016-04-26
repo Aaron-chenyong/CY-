@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CYTabBarController.h
 //  百思不得姐
 //
 //  Created by chenyong on 16/4/26.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CYTabBarController : UITabBarController
 
 @end
-
