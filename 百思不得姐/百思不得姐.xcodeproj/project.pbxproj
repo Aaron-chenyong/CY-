@@ -11,6 +11,7 @@
 		9A57822F1CD0E03800A84206 /* CYNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A57822E1CD0E03800A84206 /* CYNewViewController.m */; };
 		9A5782321CD0E04F00A84206 /* CYFriendTendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5782311CD0E04F00A84206 /* CYFriendTendsViewController.m */; };
 		9A5782351CD0E05B00A84206 /* CYMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5782341CD0E05B00A84206 /* CYMeViewController.m */; };
+		9A5782381CD1080800A84206 /* CYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5782371CD1080800A84206 /* CYTabBar.m */; };
 		9ACE4AA21CCF639200802D5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE4AA11CCF639200802D5C /* main.m */; };
 		9ACE4AA51CCF639200802D5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE4AA41CCF639200802D5C /* AppDelegate.m */; };
 		9ACE4AAD1CCF639200802D5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ACE4AAC1CCF639200802D5C /* Assets.xcassets */; };
@@ -27,6 +28,8 @@
 		9A5782311CD0E04F00A84206 /* CYFriendTendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYFriendTendsViewController.m; sourceTree = "<group>"; };
 		9A5782331CD0E05B00A84206 /* CYMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYMeViewController.h; sourceTree = "<group>"; };
 		9A5782341CD0E05B00A84206 /* CYMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYMeViewController.m; sourceTree = "<group>"; };
+		9A5782361CD1080800A84206 /* CYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYTabBar.h; sourceTree = "<group>"; };
+		9A5782371CD1080800A84206 /* CYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYTabBar.m; sourceTree = "<group>"; };
 		9ACE4A9D1CCF639200802D5C /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ACE4AA11CCF639200802D5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9ACE4AA31CCF639200802D5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,8 +73,6 @@
 			children = (
 				9ACE4AA31CCF639200802D5C /* AppDelegate.h */,
 				9ACE4AA41CCF639200802D5C /* AppDelegate.m */,
-				9ACE4AB91CCF6E4700802D5C /* CYTabBarController.h */,
-				9ACE4ABA1CCF6E4700802D5C /* CYTabBarController.m */,
 				9A57822A1CD0E01B00A84206 /* CYEssenceViewController.h */,
 				9A57822B1CD0E01B00A84206 /* CYEssenceViewController.m */,
 				9A57822D1CD0E03800A84206 /* CYNewViewController.h */,
@@ -80,6 +81,10 @@
 				9A5782311CD0E04F00A84206 /* CYFriendTendsViewController.m */,
 				9A5782331CD0E05B00A84206 /* CYMeViewController.h */,
 				9A5782341CD0E05B00A84206 /* CYMeViewController.m */,
+				9ACE4AB91CCF6E4700802D5C /* CYTabBarController.h */,
+				9ACE4ABA1CCF6E4700802D5C /* CYTabBarController.m */,
+				9A5782361CD1080800A84206 /* CYTabBar.h */,
+				9A5782371CD1080800A84206 /* CYTabBar.m */,
 				9ACE4AA01CCF639200802D5C /* Supporting Files */,
 			);
 			path = "百思不得姐";
@@ -172,6 +177,7 @@
 				9A5782321CD0E04F00A84206 /* CYFriendTendsViewController.m in Sources */,
 				9ACE4AA51CCF639200802D5C /* AppDelegate.m in Sources */,
 				9A57822C1CD0E01B00A84206 /* CYEssenceViewController.m in Sources */,
+				9A5782381CD1080800A84206 /* CYTabBar.m in Sources */,
 				9ACE4AA21CCF639200802D5C /* main.m in Sources */,
 				9ACE4ABB1CCF6E4700802D5C /* CYTabBarController.m in Sources */,
 			);

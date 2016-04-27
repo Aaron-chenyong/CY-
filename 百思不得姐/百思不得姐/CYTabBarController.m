@@ -12,6 +12,8 @@
 #import "CYFriendTendsViewController.h"
 #import "CYMeViewController.h"
 
+#import "CYTabBar.h"
+
 @interface CYTabBarController ()
 
 @end
@@ -41,6 +43,8 @@
     [self setupChildVc:[[CYFriendTendsViewController alloc] init] title:@"关注" image:@"tabBar_friendTrends_icon" selectedImage:@"tabBar_friendTrends_click_icon"];
    [self setupChildVc:[[CYMeViewController alloc] init] title:@"我" image:@"tabBar_me_icon" selectedImage:@"tabBar_me_click_icon"];
     
+    //更换TabBar
+    [self setValue:[[CYTabBar alloc] init] forKey:@"tabBar"];
 }
 
 //初始化子控制器
