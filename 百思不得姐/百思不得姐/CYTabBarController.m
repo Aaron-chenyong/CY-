@@ -7,6 +7,10 @@
 //
 
 #import "CYTabBarController.h"
+#import "CYEssenceViewController.h"
+#import "CYNewViewController.h"
+#import "CYFriendTendsViewController.h"
+#import "CYMeViewController.h"
 
 @interface CYTabBarController ()
 
@@ -32,22 +36,26 @@
     [item setTitleTextAttributes:selectedAttrs forState:UIControlStateSelected];
     
     //添加子控制器
-    UIViewController *vc01 = [[UIViewController alloc] init];
-    vc01.tabBarItem.title = @"精华";
-    vc01.tabBarItem.image = [UIImage imageNamed:@"tabBar_essence_icon"];
-    vc01.tabBarItem.selectedImage = [UIImage imageNamed:@"tabBar_essence_click_icon"];
-    vc01.view.backgroundColor = [UIColor yellowColor];
-    [self addChildViewController:vc01];
+    [self setupChildVc:[[CYEssenceViewController alloc] init] title:@"精华" image:@"tabBar_essence_icon" selectedImage:@"tabBar_essence_click_icon"];
+    [self setupChildVc:[[CYNewViewController alloc] init] title:@"新帖" image:@"tabBar_new_icon" selectedImage:@"tabBar_new_click_icon"];
+    [self setupChildVc:[[CYFriendTendsViewController alloc] init] title:@"关注" image:@"tabBar_friendTrends_icon" selectedImage:@"tabBar_friendTrends_click_icon"];
+   [self setupChildVc:[[CYMeViewController alloc] init] title:@"我" image:@"tabBar_me_icon" selectedImage:@"tabBar_me_click_icon"];
     
 }
 
-//添加子控制器
+//初始化子控制器
 - (void)setupChildVc:(UIViewController *)vc title:(NSString *)title image:(NSString *)image selectedImage:(NSString *)selectedImage
 {
+    //设置文字和图片
     vc.tabBarItem.title = title;
     vc.tabBarItem.image = [UIImage imageNamed:image];
-    vc.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];
-    vc.view.backgroundColor = [UIColor yellowColor];
+    UIImage *Seimage = [UIImage imageNamed:selectedImage];
+    Seimage = [Seimage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    vc.tabBarItem.selectedImage = Seimage;
+    
+    vc.view.backgroundColor = [UIColor colorWithRed:arc4random_uniform(100)/100.0 green:arc4random_uniform(100)/100.0 blue:arc4random_uniform(100)/100.0 alpha:1.0];
+    
+    //添加到控制器
     [self addChildViewController:vc];
 }
 
