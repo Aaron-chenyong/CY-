@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //设置导航栏标题
+    self.navigationItem.title = @"我的";
+    
 }
 
 - (void)didReceiveMemoryWarning {

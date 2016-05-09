@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  百思不得姐
+//
+//  Created by chenyong on 16/5/9.
+//  Copyright © 2016年 PALMFUN. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+CYExtension.h"
+#import "UIBarButtonItem+CYExtension.h"
+
+#ifdef DEBUG
+#define MYLog(...) NSLog(__VA_ARGS__)
+#else
+#define MYLog(...)
+#endif
+
+#define MYLogFunc MYLog(@"%s",__func__);
+
+#endif /* PrefixHeader_pch */

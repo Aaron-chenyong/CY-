@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A09207B1CE0731A0079523F /* UIView+CYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A09207A1CE0731A0079523F /* UIView+CYExtension.m */; };
+		9A09207F1CE096480079523F /* UIBarButtonItem+CYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A09207E1CE096480079523F /* UIBarButtonItem+CYExtension.m */; };
 		9A57822C1CD0E01B00A84206 /* CYEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A57822B1CD0E01B00A84206 /* CYEssenceViewController.m */; };
 		9A57822F1CD0E03800A84206 /* CYNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A57822E1CD0E03800A84206 /* CYNewViewController.m */; };
 		9A5782321CD0E04F00A84206 /* CYFriendTendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5782311CD0E04F00A84206 /* CYFriendTendsViewController.m */; };
@@ -20,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A0920791CE0731A0079523F /* UIView+CYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CYExtension.h"; sourceTree = "<group>"; };
+		9A09207A1CE0731A0079523F /* UIView+CYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CYExtension.m"; sourceTree = "<group>"; };
+		9A09207C1CE073380079523F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9A09207D1CE096480079523F /* UIBarButtonItem+CYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CYExtension.h"; sourceTree = "<group>"; };
+		9A09207E1CE096480079523F /* UIBarButtonItem+CYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CYExtension.m"; sourceTree = "<group>"; };
 		9A57822A1CD0E01B00A84206 /* CYEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYEssenceViewController.h; sourceTree = "<group>"; };
 		9A57822B1CD0E01B00A84206 /* CYEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYEssenceViewController.m; sourceTree = "<group>"; };
 		9A57822D1CD0E03800A84206 /* CYNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYNewViewController.h; sourceTree = "<group>"; };
@@ -85,6 +92,11 @@
 				9ACE4ABA1CCF6E4700802D5C /* CYTabBarController.m */,
 				9A5782361CD1080800A84206 /* CYTabBar.h */,
 				9A5782371CD1080800A84206 /* CYTabBar.m */,
+				9A0920791CE0731A0079523F /* UIView+CYExtension.h */,
+				9A09207A1CE0731A0079523F /* UIView+CYExtension.m */,
+				9A09207D1CE096480079523F /* UIBarButtonItem+CYExtension.h */,
+				9A09207E1CE096480079523F /* UIBarButtonItem+CYExtension.m */,
+				9A09207C1CE073380079523F /* PrefixHeader.pch */,
 				9ACE4AA01CCF639200802D5C /* Supporting Files */,
 			);
 			path = "百思不得姐";
@@ -174,10 +186,12 @@
 			files = (
 				9A5782351CD0E05B00A84206 /* CYMeViewController.m in Sources */,
 				9A57822F1CD0E03800A84206 /* CYNewViewController.m in Sources */,
+				9A09207F1CE096480079523F /* UIBarButtonItem+CYExtension.m in Sources */,
 				9A5782321CD0E04F00A84206 /* CYFriendTendsViewController.m in Sources */,
 				9ACE4AA51CCF639200802D5C /* AppDelegate.m in Sources */,
 				9A57822C1CD0E01B00A84206 /* CYEssenceViewController.m in Sources */,
 				9A5782381CD1080800A84206 /* CYTabBar.m in Sources */,
+				9A09207B1CE0731A0079523F /* UIView+CYExtension.m in Sources */,
 				9ACE4AA21CCF639200802D5C /* main.m in Sources */,
 				9ACE4ABB1CCF6E4700802D5C /* CYTabBarController.m in Sources */,
 			);
@@ -282,6 +296,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "百思不得姐/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.palmfun.-----";
@@ -294,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "百思不得姐/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.palmfun.-----";
