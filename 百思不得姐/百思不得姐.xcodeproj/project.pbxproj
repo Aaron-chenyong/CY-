@@ -7,45 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A09207B1CE0731A0079523F /* UIView+CYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A09207A1CE0731A0079523F /* UIView+CYExtension.m */; };
-		9A09207F1CE096480079523F /* UIBarButtonItem+CYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A09207E1CE096480079523F /* UIBarButtonItem+CYExtension.m */; };
-		9A57822C1CD0E01B00A84206 /* CYEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A57822B1CD0E01B00A84206 /* CYEssenceViewController.m */; };
-		9A57822F1CD0E03800A84206 /* CYNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A57822E1CD0E03800A84206 /* CYNewViewController.m */; };
-		9A5782321CD0E04F00A84206 /* CYFriendTendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5782311CD0E04F00A84206 /* CYFriendTendsViewController.m */; };
-		9A5782351CD0E05B00A84206 /* CYMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5782341CD0E05B00A84206 /* CYMeViewController.m */; };
-		9A5782381CD1080800A84206 /* CYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5782371CD1080800A84206 /* CYTabBar.m */; };
-		9ACE4AA21CCF639200802D5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE4AA11CCF639200802D5C /* main.m */; };
-		9ACE4AA51CCF639200802D5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE4AA41CCF639200802D5C /* AppDelegate.m */; };
+		9A0920A91CE195E10079523F /* CYEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0920841CE195E10079523F /* CYEssenceViewController.m */; };
+		9A0920AA1CE195E10079523F /* CYFriendTendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A09208A1CE195E10079523F /* CYFriendTendsViewController.m */; };
+		9A0920AB1CE195E10079523F /* CYMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0920901CE195E10079523F /* CYMeViewController.m */; };
+		9A0920AC1CE195E10079523F /* CYNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0920961CE195E10079523F /* CYNewViewController.m */; };
+		9A0920AD1CE195E10079523F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A09209B1CE195E10079523F /* AppDelegate.m */; };
+		9A0920AE1CE195E10079523F /* UIBarButtonItem+CYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A09209E1CE195E10079523F /* UIBarButtonItem+CYExtension.m */; };
+		9A0920AF1CE195E10079523F /* UIView+CYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0920A01CE195E10079523F /* UIView+CYExtension.m */; };
+		9A0920B01CE195E10079523F /* CYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0920A31CE195E10079523F /* CYTabBarController.m */; };
+		9A0920B11CE195E10079523F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0920A41CE195E10079523F /* main.m */; };
+		9A0920B21CE195E10079523F /* CYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0920A81CE195E10079523F /* CYTabBar.m */; };
 		9ACE4AAD1CCF639200802D5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ACE4AAC1CCF639200802D5C /* Assets.xcassets */; };
 		9ACE4AB01CCF639200802D5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ACE4AAE1CCF639200802D5C /* LaunchScreen.storyboard */; };
-		9ACE4ABB1CCF6E4700802D5C /* CYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACE4ABA1CCF6E4700802D5C /* CYTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9A0920791CE0731A0079523F /* UIView+CYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CYExtension.h"; sourceTree = "<group>"; };
-		9A09207A1CE0731A0079523F /* UIView+CYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CYExtension.m"; sourceTree = "<group>"; };
-		9A09207C1CE073380079523F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		9A09207D1CE096480079523F /* UIBarButtonItem+CYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CYExtension.h"; sourceTree = "<group>"; };
-		9A09207E1CE096480079523F /* UIBarButtonItem+CYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CYExtension.m"; sourceTree = "<group>"; };
-		9A57822A1CD0E01B00A84206 /* CYEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYEssenceViewController.h; sourceTree = "<group>"; };
-		9A57822B1CD0E01B00A84206 /* CYEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYEssenceViewController.m; sourceTree = "<group>"; };
-		9A57822D1CD0E03800A84206 /* CYNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYNewViewController.h; sourceTree = "<group>"; };
-		9A57822E1CD0E03800A84206 /* CYNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYNewViewController.m; sourceTree = "<group>"; };
-		9A5782301CD0E04F00A84206 /* CYFriendTendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYFriendTendsViewController.h; sourceTree = "<group>"; };
-		9A5782311CD0E04F00A84206 /* CYFriendTendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYFriendTendsViewController.m; sourceTree = "<group>"; };
-		9A5782331CD0E05B00A84206 /* CYMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYMeViewController.h; sourceTree = "<group>"; };
-		9A5782341CD0E05B00A84206 /* CYMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYMeViewController.m; sourceTree = "<group>"; };
-		9A5782361CD1080800A84206 /* CYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYTabBar.h; sourceTree = "<group>"; };
-		9A5782371CD1080800A84206 /* CYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYTabBar.m; sourceTree = "<group>"; };
+		9A0920831CE195E10079523F /* CYEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYEssenceViewController.h; sourceTree = "<group>"; };
+		9A0920841CE195E10079523F /* CYEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYEssenceViewController.m; sourceTree = "<group>"; };
+		9A0920891CE195E10079523F /* CYFriendTendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYFriendTendsViewController.h; sourceTree = "<group>"; };
+		9A09208A1CE195E10079523F /* CYFriendTendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYFriendTendsViewController.m; sourceTree = "<group>"; };
+		9A09208F1CE195E10079523F /* CYMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYMeViewController.h; sourceTree = "<group>"; };
+		9A0920901CE195E10079523F /* CYMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYMeViewController.m; sourceTree = "<group>"; };
+		9A0920951CE195E10079523F /* CYNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYNewViewController.h; sourceTree = "<group>"; };
+		9A0920961CE195E10079523F /* CYNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYNewViewController.m; sourceTree = "<group>"; };
+		9A09209A1CE195E10079523F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A09209B1CE195E10079523F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A09209D1CE195E10079523F /* UIBarButtonItem+CYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CYExtension.h"; sourceTree = "<group>"; };
+		9A09209E1CE195E10079523F /* UIBarButtonItem+CYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CYExtension.m"; sourceTree = "<group>"; };
+		9A09209F1CE195E10079523F /* UIView+CYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CYExtension.h"; sourceTree = "<group>"; };
+		9A0920A01CE195E10079523F /* UIView+CYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CYExtension.m"; sourceTree = "<group>"; };
+		9A0920A21CE195E10079523F /* CYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYTabBarController.h; sourceTree = "<group>"; };
+		9A0920A31CE195E10079523F /* CYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYTabBarController.m; sourceTree = "<group>"; };
+		9A0920A41CE195E10079523F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A0920A51CE195E10079523F /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9A0920A71CE195E10079523F /* CYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYTabBar.h; sourceTree = "<group>"; };
+		9A0920A81CE195E10079523F /* CYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYTabBar.m; sourceTree = "<group>"; };
 		9ACE4A9D1CCF639200802D5C /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9ACE4AA11CCF639200802D5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9ACE4AA31CCF639200802D5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9ACE4AA41CCF639200802D5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9ACE4AAC1CCF639200802D5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9ACE4AAF1CCF639200802D5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9ACE4AB11CCF639200802D5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9ACE4AB91CCF6E4700802D5C /* CYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYTabBarController.h; sourceTree = "<group>"; };
-		9ACE4ABA1CCF6E4700802D5C /* CYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +59,193 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A0920801CE195E10079523F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				9A0920811CE195E10079523F /* Essence-精华 */,
+				9A0920931CE195E10079523F /* New-新帖 */,
+				9A0920871CE195E10079523F /* FriendTends-关注 */,
+				9A09208D1CE195E10079523F /* Me-我 */,
+				9A0920991CE195E10079523F /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9A0920811CE195E10079523F /* Essence-精华 */ = {
+			isa = PBXGroup;
+			children = (
+				9A0920821CE195E10079523F /* Controller */,
+				9A0920851CE195E10079523F /* Mode */,
+				9A0920861CE195E10079523F /* View */,
+			);
+			path = "Essence-精华";
+			sourceTree = "<group>";
+		};
+		9A0920821CE195E10079523F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A0920831CE195E10079523F /* CYEssenceViewController.h */,
+				9A0920841CE195E10079523F /* CYEssenceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A0920851CE195E10079523F /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		9A0920861CE195E10079523F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A0920871CE195E10079523F /* FriendTends-关注 */ = {
+			isa = PBXGroup;
+			children = (
+				9A0920881CE195E10079523F /* Controller */,
+				9A09208B1CE195E10079523F /* Mode */,
+				9A09208C1CE195E10079523F /* View */,
+			);
+			path = "FriendTends-关注";
+			sourceTree = "<group>";
+		};
+		9A0920881CE195E10079523F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A0920891CE195E10079523F /* CYFriendTendsViewController.h */,
+				9A09208A1CE195E10079523F /* CYFriendTendsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A09208B1CE195E10079523F /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		9A09208C1CE195E10079523F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A09208D1CE195E10079523F /* Me-我 */ = {
+			isa = PBXGroup;
+			children = (
+				9A09208E1CE195E10079523F /* Controller */,
+				9A0920911CE195E10079523F /* Mode */,
+				9A0920921CE195E10079523F /* View */,
+			);
+			path = "Me-我";
+			sourceTree = "<group>";
+		};
+		9A09208E1CE195E10079523F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A09208F1CE195E10079523F /* CYMeViewController.h */,
+				9A0920901CE195E10079523F /* CYMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A0920911CE195E10079523F /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		9A0920921CE195E10079523F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A0920931CE195E10079523F /* New-新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				9A0920941CE195E10079523F /* Controller */,
+				9A0920971CE195E10079523F /* Mode */,
+				9A0920981CE195E10079523F /* View */,
+			);
+			path = "New-新帖";
+			sourceTree = "<group>";
+		};
+		9A0920941CE195E10079523F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A0920951CE195E10079523F /* CYNewViewController.h */,
+				9A0920961CE195E10079523F /* CYNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A0920971CE195E10079523F /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		9A0920981CE195E10079523F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A0920991CE195E10079523F /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				9A0920A11CE195E10079523F /* Controller */,
+				9A0920A61CE195E10079523F /* View */,
+				9A09209C1CE195E10079523F /* Category */,
+				9A09209A1CE195E10079523F /* AppDelegate.h */,
+				9A09209B1CE195E10079523F /* AppDelegate.m */,
+				9A0920A41CE195E10079523F /* main.m */,
+				9A0920A51CE195E10079523F /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		9A09209C1CE195E10079523F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9A09209D1CE195E10079523F /* UIBarButtonItem+CYExtension.h */,
+				9A09209E1CE195E10079523F /* UIBarButtonItem+CYExtension.m */,
+				9A09209F1CE195E10079523F /* UIView+CYExtension.h */,
+				9A0920A01CE195E10079523F /* UIView+CYExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		9A0920A11CE195E10079523F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A0920A21CE195E10079523F /* CYTabBarController.h */,
+				9A0920A31CE195E10079523F /* CYTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9A0920A61CE195E10079523F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A0920A71CE195E10079523F /* CYTabBar.h */,
+				9A0920A81CE195E10079523F /* CYTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		9ACE4A941CCF639200802D5C = {
 			isa = PBXGroup;
 			children = (
@@ -78,25 +265,6 @@
 		9ACE4A9F1CCF639200802D5C /* 百思不得姐 */ = {
 			isa = PBXGroup;
 			children = (
-				9ACE4AA31CCF639200802D5C /* AppDelegate.h */,
-				9ACE4AA41CCF639200802D5C /* AppDelegate.m */,
-				9A57822A1CD0E01B00A84206 /* CYEssenceViewController.h */,
-				9A57822B1CD0E01B00A84206 /* CYEssenceViewController.m */,
-				9A57822D1CD0E03800A84206 /* CYNewViewController.h */,
-				9A57822E1CD0E03800A84206 /* CYNewViewController.m */,
-				9A5782301CD0E04F00A84206 /* CYFriendTendsViewController.h */,
-				9A5782311CD0E04F00A84206 /* CYFriendTendsViewController.m */,
-				9A5782331CD0E05B00A84206 /* CYMeViewController.h */,
-				9A5782341CD0E05B00A84206 /* CYMeViewController.m */,
-				9ACE4AB91CCF6E4700802D5C /* CYTabBarController.h */,
-				9ACE4ABA1CCF6E4700802D5C /* CYTabBarController.m */,
-				9A5782361CD1080800A84206 /* CYTabBar.h */,
-				9A5782371CD1080800A84206 /* CYTabBar.m */,
-				9A0920791CE0731A0079523F /* UIView+CYExtension.h */,
-				9A09207A1CE0731A0079523F /* UIView+CYExtension.m */,
-				9A09207D1CE096480079523F /* UIBarButtonItem+CYExtension.h */,
-				9A09207E1CE096480079523F /* UIBarButtonItem+CYExtension.m */,
-				9A09207C1CE073380079523F /* PrefixHeader.pch */,
 				9ACE4AA01CCF639200802D5C /* Supporting Files */,
 			);
 			path = "百思不得姐";
@@ -105,10 +273,10 @@
 		9ACE4AA01CCF639200802D5C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9A0920801CE195E10079523F /* Classes */,
 				9ACE4AAC1CCF639200802D5C /* Assets.xcassets */,
 				9ACE4AAE1CCF639200802D5C /* LaunchScreen.storyboard */,
 				9ACE4AB11CCF639200802D5C /* Info.plist */,
-				9ACE4AA11CCF639200802D5C /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -184,16 +352,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A5782351CD0E05B00A84206 /* CYMeViewController.m in Sources */,
-				9A57822F1CD0E03800A84206 /* CYNewViewController.m in Sources */,
-				9A09207F1CE096480079523F /* UIBarButtonItem+CYExtension.m in Sources */,
-				9A5782321CD0E04F00A84206 /* CYFriendTendsViewController.m in Sources */,
-				9ACE4AA51CCF639200802D5C /* AppDelegate.m in Sources */,
-				9A57822C1CD0E01B00A84206 /* CYEssenceViewController.m in Sources */,
-				9A5782381CD1080800A84206 /* CYTabBar.m in Sources */,
-				9A09207B1CE0731A0079523F /* UIView+CYExtension.m in Sources */,
-				9ACE4AA21CCF639200802D5C /* main.m in Sources */,
-				9ACE4ABB1CCF6E4700802D5C /* CYTabBarController.m in Sources */,
+				9A0920A91CE195E10079523F /* CYEssenceViewController.m in Sources */,
+				9A0920AC1CE195E10079523F /* CYNewViewController.m in Sources */,
+				9A0920AA1CE195E10079523F /* CYFriendTendsViewController.m in Sources */,
+				9A0920B01CE195E10079523F /* CYTabBarController.m in Sources */,
+				9A0920AB1CE195E10079523F /* CYMeViewController.m in Sources */,
+				9A0920B21CE195E10079523F /* CYTabBar.m in Sources */,
+				9A0920AE1CE195E10079523F /* UIBarButtonItem+CYExtension.m in Sources */,
+				9A0920AD1CE195E10079523F /* AppDelegate.m in Sources */,
+				9A0920B11CE195E10079523F /* main.m in Sources */,
+				9A0920AF1CE195E10079523F /* UIView+CYExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +464,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PREFIX_HEADER = "百思不得姐/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "百思不得姐/Classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.palmfun.-----";
@@ -309,7 +477,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PREFIX_HEADER = "百思不得姐/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "百思不得姐/Classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cn.com.palmfun.-----";
