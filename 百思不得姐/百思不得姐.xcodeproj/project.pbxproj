@@ -18,6 +18,7 @@
 		9A0920B11CE195E10079523F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0920A41CE195E10079523F /* main.m */; };
 		9A0920B21CE195E10079523F /* CYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0920A81CE195E10079523F /* CYTabBar.m */; };
 		9A0920B51CE1DDBA0079523F /* CYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0920B41CE1DDBA0079523F /* CYNavigationController.m */; };
+		9AA2B7CF1CE5833A00E223C4 /* CYFriendTendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA2B7CE1CE5833A00E223C4 /* CYFriendTendsViewController.xib */; };
 		9ACE4AAD1CCF639200802D5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ACE4AAC1CCF639200802D5C /* Assets.xcassets */; };
 		9ACE4AB01CCF639200802D5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ACE4AAE1CCF639200802D5C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -45,6 +46,7 @@
 		9A0920A81CE195E10079523F /* CYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYTabBar.m; sourceTree = "<group>"; };
 		9A0920B31CE1DDBA0079523F /* CYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYNavigationController.h; sourceTree = "<group>"; };
 		9A0920B41CE1DDBA0079523F /* CYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYNavigationController.m; sourceTree = "<group>"; };
+		9AA2B7CE1CE5833A00E223C4 /* CYFriendTendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYFriendTendsViewController.xib; sourceTree = "<group>"; };
 		9ACE4A9D1CCF639200802D5C /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ACE4AAC1CCF639200802D5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9ACE4AAF1CCF639200802D5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			children = (
 				9A0920891CE195E10079523F /* CYFriendTendsViewController.h */,
 				9A09208A1CE195E10079523F /* CYFriendTendsViewController.m */,
+				9AA2B7CE1CE5833A00E223C4 /* CYFriendTendsViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ACE4AB01CCF639200802D5C /* LaunchScreen.storyboard in Resources */,
+				9AA2B7CF1CE5833A00E223C4 /* CYFriendTendsViewController.xib in Resources */,
 				9ACE4AAD1CCF639200802D5C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
