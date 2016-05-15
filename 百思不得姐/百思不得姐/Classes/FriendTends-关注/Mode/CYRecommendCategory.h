@@ -12,7 +12,6 @@
 /**
  "id"
  */
-
 @property (nonatomic, assign) NSInteger id;
 /**
  "name" 名字

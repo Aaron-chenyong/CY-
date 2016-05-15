@@ -61,6 +61,10 @@ static NSString * const CYCategoryId = @"category";
         //刷新表格
         [self.categoryTableView reloadData];
         
+        //默认选中首行
+        [self.categoryTableView selectRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] animated:NO scrollPosition:UITableViewScrollPositionTop];
+        
+        
     } failure:^(NSURLSessionDataTask *task, NSError *error) {
         
         //显示失败信息
