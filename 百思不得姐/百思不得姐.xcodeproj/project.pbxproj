@@ -18,6 +18,9 @@
 		9A0920B11CE195E10079523F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0920A41CE195E10079523F /* main.m */; };
 		9A0920B21CE195E10079523F /* CYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0920A81CE195E10079523F /* CYTabBar.m */; };
 		9A0920B51CE1DDBA0079523F /* CYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0920B41CE1DDBA0079523F /* CYNavigationController.m */; };
+		9A92AE0C1CE8623B0000000F /* CYRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A92AE0A1CE8623B0000000F /* CYRecommendUserCell.m */; };
+		9A92AE0D1CE8623B0000000F /* CYRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A92AE0B1CE8623B0000000F /* CYRecommendUserCell.xib */; };
+		9A92AE101CE86A190000000F /* CYRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A92AE0F1CE86A190000000F /* CYRecommendUser.m */; };
 		9AA2B7CF1CE5833A00E223C4 /* CYFriendTendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA2B7CE1CE5833A00E223C4 /* CYFriendTendsViewController.xib */; };
 		9AA2B8601CE6110100E223C4 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2B7D31CE6110100E223C4 /* AFHTTPRequestOperation.m */; };
 		9AA2B8611CE6110100E223C4 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2B7D51CE6110100E223C4 /* AFHTTPRequestOperationManager.m */; };
@@ -117,6 +120,11 @@
 		9A0920A81CE195E10079523F /* CYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYTabBar.m; sourceTree = "<group>"; };
 		9A0920B31CE1DDBA0079523F /* CYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYNavigationController.h; sourceTree = "<group>"; };
 		9A0920B41CE1DDBA0079523F /* CYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYNavigationController.m; sourceTree = "<group>"; };
+		9A92AE091CE8623B0000000F /* CYRecommendUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRecommendUserCell.h; sourceTree = "<group>"; };
+		9A92AE0A1CE8623B0000000F /* CYRecommendUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRecommendUserCell.m; sourceTree = "<group>"; };
+		9A92AE0B1CE8623B0000000F /* CYRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYRecommendUserCell.xib; sourceTree = "<group>"; };
+		9A92AE0E1CE86A190000000F /* CYRecommendUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRecommendUser.h; sourceTree = "<group>"; };
+		9A92AE0F1CE86A190000000F /* CYRecommendUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRecommendUser.m; sourceTree = "<group>"; };
 		9AA2B7CE1CE5833A00E223C4 /* CYFriendTendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYFriendTendsViewController.xib; sourceTree = "<group>"; };
 		9AA2B7D21CE6110100E223C4 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		9AA2B7D31CE6110100E223C4 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
@@ -349,6 +357,8 @@
 			children = (
 				9AA2B8A81CE629A800E223C4 /* CYRecommendCategory.h */,
 				9AA2B8A91CE629A800E223C4 /* CYRecommendCategory.m */,
+				9A92AE0E1CE86A190000000F /* CYRecommendUser.h */,
+				9A92AE0F1CE86A190000000F /* CYRecommendUser.m */,
 			);
 			path = Mode;
 			sourceTree = "<group>";
@@ -359,6 +369,9 @@
 				9AA2B8AB1CE62CF300E223C4 /* CYRecommendCategoryCell.h */,
 				9AA2B8AC1CE62CF300E223C4 /* CYRecommendCategoryCell.m */,
 				9AA2B8AD1CE62CF300E223C4 /* CYRecommendCategoryCell.xib */,
+				9A92AE091CE8623B0000000F /* CYRecommendUserCell.h */,
+				9A92AE0A1CE8623B0000000F /* CYRecommendUserCell.m */,
+				9A92AE0B1CE8623B0000000F /* CYRecommendUserCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -811,6 +824,7 @@
 				9ACE4AAD1CCF639200802D5C /* Assets.xcassets in Resources */,
 				9AA2B8A51CE6122C00E223C4 /* CYRecommendViewController.xib in Resources */,
 				9AA2B8771CE6110100E223C4 /* MJPhotoBrowser.bundle in Resources */,
+				9A92AE0D1CE8623B0000000F /* CYRecommendUserCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -840,6 +854,7 @@
 				9AA2B8751CE6110100E223C4 /* NSString+MJExtension.m in Sources */,
 				9AA2B8921CE6110100E223C4 /* NSData+ImageContentType.m in Sources */,
 				9AA2B87C1CE6110100E223C4 /* MJPhotoView.m in Sources */,
+				9A92AE0C1CE8623B0000000F /* CYRecommendUserCell.m in Sources */,
 				9A0920B01CE195E10079523F /* CYTabBarController.m in Sources */,
 				9AA2B8A01CE6110100E223C4 /* UIView+WebCacheOperation.m in Sources */,
 				9AA2B8971CE6110100E223C4 /* SDWebImageDownloaderOperation.m in Sources */,
@@ -853,6 +868,7 @@
 				9AA2B8911CE6110100E223C4 /* MKAnnotationView+WebCache.m in Sources */,
 				9AA2B8671CE6110100E223C4 /* AFURLResponseSerialization.m in Sources */,
 				9AA2B88E1CE6110100E223C4 /* UIScrollView+MJExtension.m in Sources */,
+				9A92AE101CE86A190000000F /* CYRecommendUser.m in Sources */,
 				9AA2B89A1CE6110100E223C4 /* UIButton+WebCache.m in Sources */,
 				9AA2B86F1CE6110100E223C4 /* MJPropertyKey.m in Sources */,
 				9AA2B8741CE6110100E223C4 /* NSObject+MJProperty.m in Sources */,
