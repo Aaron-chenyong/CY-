@@ -42,20 +42,21 @@
                         </state>
                     </button>
                     <view alpha="0.20000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Shp-Te-5TK" userLabel="分隔线">
-                        <rect key="frame" x="0.0" y="93.5" width="320" height="1"/>
+                        <rect key="frame" x="0.0" y="93" width="320" height="1"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="1" id="WuP-o4-A2M"/>
                         </constraints>
                     </view>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fOV-w7-DvP">
-                        <rect key="frame" x="70" y="22" width="42" height="20.5"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <rect key="frame" x="70" y="22" width="170" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
                 <constraints>
+                    <constraint firstItem="dDu-Yl-pzJ" firstAttribute="leading" secondItem="fOV-w7-DvP" secondAttribute="trailing" constant="10" id="Adu-lv-L0x"/>
                     <constraint firstAttribute="trailing" secondItem="Shp-Te-5TK" secondAttribute="trailing" id="FTZ-1J-ToI"/>
                     <constraint firstItem="Shp-Te-5TK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Htm-aU-wyM"/>
                     <constraint firstItem="dDu-Yl-pzJ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="PkA-ws-l0t"/>

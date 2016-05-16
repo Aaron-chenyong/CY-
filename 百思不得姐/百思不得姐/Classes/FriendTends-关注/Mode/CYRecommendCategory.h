@@ -22,4 +22,13 @@
  */
 @property (nonatomic, assign) NSInteger count;
 
+
+/**
+ *  这个类别对应的用户数据
+ */
+@property (nonatomic, strong) NSMutableArray *users;
+
+
+
+
 @end
