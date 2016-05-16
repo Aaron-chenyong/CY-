@@ -108,6 +108,8 @@ static NSString * const CYUserId = @"user";
 /**添加刷新控件*/
 - (void)setupRefresh
 {
+    self.userTableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(loadNewUsers)];
+    
     self.userTableView.mj_footer = [MJRefreshAutoNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(loadMoreUsers)];
     
     self.userTableView.mj_footer.hidden = YES;
@@ -115,6 +117,41 @@ static NSString * const CYUserId = @"user";
 }
 
 #pragma mark - 加载用户数据
+- (void)loadNewUsers
+{
+    CYRecommendCategory *rc = CYSelectedCategory;
+    
+    //设置当前的页码为1
+    rc.currentPage = 1;
+    
+    //请求参数
+    NSMutableDictionary *params = [NSMutableDictionary dictionary];
+    params[@"a"] = @"list";
+    params[@"c"] = @"subscribe";
+    params[@"category_id"] = @(rc.id);
+    params[@"page"] = @(rc.currentPage);
+        //发送请求给服务器,加载右侧的数据
+    [[AFHTTPSessionManager manager] GET:@"http://api.budejie.com/api/api_open.php" parameters:params success:^(NSURLSessionDataTask *task, id responseObject) {
+        //字典数组 转 模型数组
+        NSArray *users = [CYRecommendUser mj_objectArrayWithKeyValuesArray:responseObject[@"list"]];
+        //添加到当期类别对应的用户数组中
+        [rc.users addObjectsFromArray:users];
+        
+        //保存总数
+        rc.total = [responseObject[@"total"] integerValue];
+        
+        //刷新右边的表格
+        [self.userTableView reloadData];
+        
+        if (rc.users.count == rc.total) {//全部加载完毕
+            [self.userTableView.mj_footer endRefreshingWithNoMoreData];
+        }
+        
+    } failure:^(NSURLSessionDataTask *task, NSError *error) {
+        MYLog(@"%@", error);
+    }];
+    
+}
 - (void)loadMoreUsers
 {
     CYRecommendCategory *category = CYSelectedCategory;
@@ -194,35 +231,8 @@ static NSString * const CYUserId = @"user";
         //赶紧刷新表格,目的是:马上显示Category的用户数据,不让用户看见上一个Category的残留数据
         [self.userTableView reloadData];
         
-        //设置当前的页码为1
-        category.currentPage = 1;
-        
-        //发送请求给服务器,加载右侧的数据
-        NSMutableDictionary *params = [NSMutableDictionary dictionary];
-        params[@"a"] = @"list";
-        params[@"c"] = @"subscribe";
-        params[@"category_id"] = @(category.id);
-        params[@"page"] = @(category.currentPage);
-        [[AFHTTPSessionManager manager] GET:@"http://api.budejie.com/api/api_open.php" parameters:params success:^(NSURLSessionDataTask *task, id responseObject) {
-            //字典数组 转 模型数组
-            NSArray *users = [CYRecommendUser mj_objectArrayWithKeyValuesArray:responseObject[@"list"]];
-            //添加到当期类别对应的用户数组中
-            [category.users addObjectsFromArray:users];
-            
-            //保存总数
-            category.total = [responseObject[@"total"] integerValue];
-            
-            //刷新右边的表格
-            [self.userTableView reloadData];
-            
-            if (category.users.count == category.total) {//全部加载完毕
-                [self.userTableView.mj_footer endRefreshingWithNoMoreData];
-            }
-            
-        } failure:^(NSURLSessionDataTask *task, NSError *error) {
-            MYLog(@"%@", error);
-        }];
-    
+        //进入下拉刷新状态
+        [self.userTableView.mj_header beginRefreshing];
     }
     
 
