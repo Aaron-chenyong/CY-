@@ -93,6 +93,7 @@
 		9AA2B8AA1CE629A800E223C4 /* CYRecommendCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2B8A91CE629A800E223C4 /* CYRecommendCategory.m */; };
 		9AA2B8AE1CE62CF300E223C4 /* CYRecommendCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA2B8AC1CE62CF300E223C4 /* CYRecommendCategoryCell.m */; };
 		9AA2B8AF1CE62CF300E223C4 /* CYRecommendCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AA2B8AD1CE62CF300E223C4 /* CYRecommendCategoryCell.xib */; };
+		9AA57E081CEC20B30041AADF /* CYRecommendTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA57E071CEC20B30041AADF /* CYRecommendTagsViewController.m */; };
 		9ACE4AAD1CCF639200802D5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ACE4AAC1CCF639200802D5C /* Assets.xcassets */; };
 		9ACE4AB01CCF639200802D5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ACE4AAE1CCF639200802D5C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -266,6 +267,8 @@
 		9AA2B8AB1CE62CF300E223C4 /* CYRecommendCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRecommendCategoryCell.h; sourceTree = "<group>"; };
 		9AA2B8AC1CE62CF300E223C4 /* CYRecommendCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRecommendCategoryCell.m; sourceTree = "<group>"; };
 		9AA2B8AD1CE62CF300E223C4 /* CYRecommendCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYRecommendCategoryCell.xib; sourceTree = "<group>"; };
+		9AA57E061CEC20B30041AADF /* CYRecommendTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYRecommendTagsViewController.h; sourceTree = "<group>"; };
+		9AA57E071CEC20B30041AADF /* CYRecommendTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYRecommendTagsViewController.m; sourceTree = "<group>"; };
 		9ACE4A9D1CCF639200802D5C /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ACE4AAC1CCF639200802D5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9ACE4AAF1CCF639200802D5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -311,6 +314,8 @@
 			children = (
 				9A0920831CE195E10079523F /* CYEssenceViewController.h */,
 				9A0920841CE195E10079523F /* CYEssenceViewController.m */,
+				9AA57E061CEC20B30041AADF /* CYRecommendTagsViewController.h */,
+				9AA57E071CEC20B30041AADF /* CYRecommendTagsViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -849,6 +854,7 @@
 				9AA2B8951CE6110100E223C4 /* SDWebImageDecoder.m in Sources */,
 				9AA2B8681CE6110100E223C4 /* AFURLSessionManager.m in Sources */,
 				9AA2B8871CE6110100E223C4 /* MJRefreshBackNormalFooter.m in Sources */,
+				9AA57E081CEC20B30041AADF /* CYRecommendTagsViewController.m in Sources */,
 				9AA2B89C1CE6110100E223C4 /* UIImage+MultiFormat.m in Sources */,
 				9AA2B8621CE6110100E223C4 /* AFHTTPSessionManager.m in Sources */,
 				9AA2B8751CE6110100E223C4 /* NSString+MJExtension.m in Sources */,

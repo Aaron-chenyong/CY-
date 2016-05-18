@@ -96,6 +96,8 @@ static NSString * const CYUserId = @"user";
         //默认选中首行
         [self.categoryTableView selectRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0] animated:NO scrollPosition:UITableViewScrollPositionTop];
         
+        //让用户表格进入下拉刷新状态
+        [self.userTableView.mj_header beginRefreshing];
         
     } failure:^(NSURLSessionDataTask *task, NSError *error) {
         
@@ -154,9 +156,7 @@ static NSString * const CYUserId = @"user";
     
         //发送请求给服务器,加载右侧的数据
     [self.manager GET:@"http://api.budejie.com/api/api_open.php" parameters:params success:^(NSURLSessionDataTask *task, id responseObject) {
-        if (self.params != params) {
-            return ;
-        }
+
         //字典数组 转 模型数组
         NSArray *users = [CYRecommendUser mj_objectArrayWithKeyValuesArray:responseObject[@"list"]];
         //清楚所有就数据
@@ -167,6 +167,9 @@ static NSString * const CYUserId = @"user";
         
         //保存总数
         rc.total = [responseObject[@"total"] integerValue];
+        
+        //不是最后一次请求
+        if (self.params != params) return ;
         
         //刷新右边的表格
         [self.userTableView reloadData];
@@ -203,12 +206,14 @@ static NSString * const CYUserId = @"user";
     self.params = params;
     
     [self.manager GET:@"http://api.budejie.com/api/api_open.php" parameters:params success:^(NSURLSessionDataTask *task, id responseObject) {
-        if (self.params != params) return;
         
         //字典数组 转 模型数组
         NSArray *users = [CYRecommendUser mj_objectArrayWithKeyValuesArray:responseObject[@"list"]];
         //添加到当期类别对应的用户数组中
         [category.users addObjectsFromArray:users];
+        
+        //不是最后一次请求
+        if (self.params != params) return ;
         
         //刷新右边的表格
         [self.userTableView reloadData];
